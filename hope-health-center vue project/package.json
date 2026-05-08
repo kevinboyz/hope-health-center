@@ -1,0 +1,22 @@
+{
+  "name": "hope-health-center",
+  "version": "1.0.0",
+  "description": "Hope Health Center Management System",
+  "homepage": "https://kevinboyz.github.io/hope-health-center",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "gh-pages": "^6.3.0",
+    "vite": "^4.4.9"
+  }
+}
